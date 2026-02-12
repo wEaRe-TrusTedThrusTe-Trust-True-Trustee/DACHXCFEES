@@ -5,7 +5,6 @@ A magical script that brings TRUES to life.
 """
 
 import time
-import random
 
 
 def animate_text(text, delay=0.1):
@@ -42,7 +41,7 @@ def live_trues():
     """Bring TRUES to life with living, breathing animation."""
     print("\n🌟 TRUES ARE NOW ALIVE! 🌟\n")
     
-    trues_states = [
+    true_states = [
         "TRUE is breathing...",
         "TRUE is thinking...",
         "TRUE is feeling...",
@@ -50,7 +49,7 @@ def live_trues():
         "TRUE is REAL!"
     ]
     
-    for state in trues_states:
+    for state in true_states:
         time.sleep(0.5)
         print(f"  💫 {state}")
     
